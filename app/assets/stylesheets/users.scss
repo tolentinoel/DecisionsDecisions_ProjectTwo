@@ -12,7 +12,7 @@ body {
   display: block;
   text-align: center;
   margin: auto;
-  width: 45%;
+  width: 62%;
 }
 
 #edit_user_body {
@@ -31,24 +31,26 @@ body {
 }
 
 #main {
-    height: 100%;
-    padding: 60px 45px 20px 300px;
-    background-color: #f1f1f1;
-    margin: 0px;
-    border-style: solid;
-    border-width: 0px 100px 0px 0px;
-    border-color: #004345;
+  height: 100%;
+  padding: 60px 45px 20px 300px;
+  background-color: #f1f1f1;
+  margin: 0px;
+  border-style: solid;
+  border-width: 0px 100px 0px 0px;
+  border-color: #004345;
   }
 
 .sidenav {
-    height: 100%;
-    width: 280px;
-    position: absolute;
-    left: 0;
-    background-color: #bbe950;
-    overflow-x: hidden;
-    margin-left: auto;
-    margin-right: auto;
+  height: 100%;
+  width: 280px;
+  position: absolute;
+  left: 0;
+  padding-top: 7%;
+  /* background-color: #bbe950; */
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
   }
 
 .sidenav header {
@@ -60,6 +62,9 @@ body {
   display: block;
   font-family: 'Knewave', cursive;
   text-align:center;
+  }
+  .sidenav a{
+    color: white;
   }
 
 .sidenav a:link{
@@ -80,119 +85,52 @@ body {
 
 .sidenav button:hover {
   text-decoration: none;
-  background-color: #0d4f35;
+  background-color: #0a8574;
   transition: color .15s ease-in-out,
               background-color .15s ease-in-out,
               border-color .15s ease-in-out,
               box-shadow .15s ease-in-out;
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -webkit-transition: all .25s;
   }
 
-.btn {
-  background-color: #1f3229;
-  border-radius: 20px;
-}
-
 #user_welcome_name {
   font-family: 'Abril Fatface', cursive;
+  padding-left: 7%;
 }
 
 #delete_account {
   background-color: rgb(199, 21, 134);
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
   box-shadow: 0 10px 30px rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
-  margin: 15% 10% 10% 10%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  margin: 29% 10% 10% 10%;
   transition: all 0.3s ease-in-out;
 }
 
-#add_address_btn{
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+#delete_account:hover {
+  text-decoration: none;
+  background-color: #af1e0b;
+  transition: color .15s ease-in-out,
+              background-color .15s ease-in-out,
+              border-color .15s ease-in-out,
+              box-shadow .15s ease-in-out;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all .25s;
+}
+
+#edit_account_btn, #make_choice_btn , #make_address_btn, #add_address_btn, #edit_address_btn  {
   box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
   -webkit-border-radius: 12px;
-  border-radius: 12px;
+  border-radius: 40px;
+  border-style: hidden;
   margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-#make_choice_btn {
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#edit_account_btn {
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#make_address_btn {
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#edit_address_btn {
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
 
 #edit_user_header {
   font-family: 'Abril Fatface', cursive;
 }
 
-#edit_address_btn {
-  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
-  box-shadow: 0 10px 30px 0 rgba(87, 173, 216, 0.605);
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin: 5px 20px 40px 20px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}

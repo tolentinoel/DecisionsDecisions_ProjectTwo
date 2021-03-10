@@ -60,25 +60,22 @@ h1 {
     padding-top: 20px;
     font-size: 50px;
     font-family: 'Knewave', cursive;
-    font-color: rgb(36, 32, 31);
+    color: rgb(36, 32, 31);
 }
 
 #landing_content {
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 70%;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0px 0px 10px rgba(0.50, 0.50, 0.50, 0.50), 0 6px 6px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 70%;
+  height: 50%;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px rgb(1 1 1 / 50%), 0 6px 6px rgb(160 162 186);
 }
 
 #home_p {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Kalam';
+  text-align: center;
+  font-family: 'Kalam';
+  line-height: 1.5rem;
 }
 
 #home_banner{
@@ -143,15 +140,11 @@ html {
 
   #formContent, .login_body, .signup_body {
     -webkit-border-radius: 10px 10px 10px 10px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 25px;
     background: #fff;
-    padding: 30px;
-    width: 90%;
     max-width: 450px;
     position: relative;
-    padding: 0px;
-    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
-    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgb(0 0 0 / 30%);
     text-align: center;
   }
 
@@ -359,11 +352,14 @@ html {
   }
 
   #foot-note {
+    display: block;
+    position: absolute;
+    bottom: 0px;
     margin: 20px 0 0 0;
     background-color: rgb(149, 181, 54);
     font-size: 12px;
     line-height: 3px;
     text-align: center;
     width: 100%;
-    padding: 100px 15px 15px 15px;
+    padding: 15px 15px 1px 15px;
   }
