@@ -6,13 +6,13 @@ Somehow at this point, your brain just leaves you and you cannot decide what you
 
 
 
-* Ruby version
+##### Ruby version
     ruby '2.6.1'
 
-* Database creation
-    • Utilized Yelp API for random restaurant suggestions.
-    • Running Ruby on Rails with sqlite3 database for backend, SCSS, vanilla CSS, & bootstrap for frontend.
+##### Database creation
+    * Utilized Yelp API for random restaurant suggestions. 
+    * Running Ruby on Rails with sqlite3 database for backend, SCSS, vanilla CSS, & bootstrap for frontend.
 
-* Database initialization
+##### Database initialization
     Run command **rails s** to startup the localhost.(http://localhost:3000/)
 
